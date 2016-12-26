@@ -53,8 +53,8 @@ app.use('/api',proxy({
 app.use('/',express.static(path.join(__dirname,'views')));
 app.use('/public',express.static(path.join(__dirname,'public')));
 //指定端口号，建议3000以上,回调函数可以不写
-app.listen(36909,function (){
-    console.log('server run at port 36909')
+app.listen(36959,function (){
+    console.log('server run at port 36959')
 });
 
 //模块导出
